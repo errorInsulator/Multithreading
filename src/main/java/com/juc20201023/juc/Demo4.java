@@ -1,6 +1,6 @@
-package com.juc20201023;
+package com.juc20201023.juc;
 
-import com.juc20201022.Demo1;
+import com.juc20201022.juc.Demo1;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -35,7 +35,7 @@ public class Demo4 {
     public static void main(String[] args) {
 
         Thread thread1= new Thread(()->{
-            com.juc20201022.Demo1.sendSMS();
+            Demo1.sendSMS();
         },"t1");
 
         Thread thread2= new Thread(()->{

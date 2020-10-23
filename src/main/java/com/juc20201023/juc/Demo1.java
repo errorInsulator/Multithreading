@@ -1,4 +1,4 @@
-package com.juc20201023;
+package com.juc20201023.juc;
 
 /**
  * 独占锁

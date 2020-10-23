@@ -1,4 +1,4 @@
-package com.juc20201022;
+package com.juc20201022.juc;
 
 /**
  * 可重入锁（递归锁）

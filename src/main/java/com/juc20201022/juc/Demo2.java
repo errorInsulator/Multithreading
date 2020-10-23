@@ -1,4 +1,4 @@
-package com.juc20201022;
+package com.juc20201022.juc;
 
 public class Demo2 {
     private static volatile Object rA = new Object();

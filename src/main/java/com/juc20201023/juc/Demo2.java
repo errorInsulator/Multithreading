@@ -1,4 +1,4 @@
-package com.juc20201023;
+package com.juc20201023.juc;
 
 public class Demo2 {
     public static void main(String[] args) {
